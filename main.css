@@ -1,0 +1,24 @@
+.imagen {
+    width: 50%;
+}
+.nombre {
+    background-color: burlywood;
+}
+.first{
+    background-color: rebeccapurple;
+    color: #fff;
+    text-align: center;
+}
+div[class|="col"]{
+    border: 1px solid #ffc107;
+}
+.circulo{
+    border-radius: 50%;
+}
+
+/* calendario */
+.grid-calen{
+    display: grid;
+    grid-template-columns: repeat(13 , 1fr);
+    grid-template-rows: repeat(31, 1rem);
+}
