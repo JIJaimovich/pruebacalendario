@@ -1,24 +1,160 @@
-.imagen {
-    width: 50%;
-}
-.nombre {
-    background-color: burlywood;
-}
-.first{
-    background-color: rebeccapurple;
-    color: #fff;
-    text-align: center;
-}
-div[class|="col"]{
-    border: 1px solid #ffc107;
-}
-.circulo{
-    border-radius: 50%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* calendario */
+h1{
+    text-align: center;
+}
+
 .grid-calen{
     display: grid;
-    grid-template-columns: repeat(13 , 1fr);
-    grid-template-rows: repeat(31, 1rem);
+    grid-template-columns: 3fr repeat(12 , 1fr);
+    grid-template-rows: repeat(31, 25px);
+    margin: 20px;
+    align-items: center;
 }
+/* .caja-calen{
+    border: 1px solid aquamarine; 
+    
+    
+} */
+
+/* Mobile */
+@media (max-width:480px)  {
+    .grid-calen{
+        display: grid;
+        grid-template-columns: repeat(13 , 1fr);
+        grid-template-rows: repeat(5, 1.5rem);
+        margin: 5px;
+        gap: 1px;  
+    }
+    .card-calen{
+        width: 6rem;
+        font-size: 12px;
+    }
+    .card-calen ul{
+        list-style: none;
+        padding: 0px;
+    }
+    .completo-calen{
+        display: none;
+    }
+    /* .caja-calen{      
+        background: #ffff99;
+        color: #333;
+        } */
+    .deporte-calen{
+        font-size: 12px;
+        padding-left: 0px;  
+    }
+    
+    .dia-calen, .num-calen{
+        font-size: 10px;
+        text-align: center;
+    }
+    .ct-calen{
+        font-size: 12px;
+    }
+    .titulo-card-calen{
+        color: #831f6a;
+    }
+}
+
+.deporte-calen{
+    color: #831f6a;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.dia-calen{
+    color: #831f6a;
+    text-align: center;
+}
+.num-calen{
+    text-align: center;
+    color: #831f6a;
+    font-weight: bold;
+}
+.rojo-calen{
+    color: #e5005b;
+}
+.gris-calen{
+    min-height: 1.5rem;
+    background-color: #ededed;
+}
+.gris-claro-calen{
+    min-height: 1.5rem;
+    background-color: #fafafa;
+}
+.muni-calen{
+    min-height: 1.5rem;
+    background-color: #35b6b4;
+}
+.newells-calen{
+    min-height: 1.5rem;
+    background-color: #1877bd;
+}
+.paseo-calen{
+    min-height: 1.5rem;
+    background-color: #91c028;
+}
+.flex-calen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+}
+.ct-calen{
+    text-align: center;
+    color: #b2b2b2;
+    font-weight: bold;
+}
+
+.medalla-calen{
+    min-height: 1rem;
+    /* height: 2rem; */
+    background-color: #e8d300;
+    height: 1rem;
+    width: 1rem; 
+    border: 1px solid white;
+    border-radius: 50%;
+} 
+.caja-calen{
+    border-radius: 15%;
+    
+}
+.prueba-calen{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+.boton-prueba-calen{
+    color: white;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+/* COLORES 
+Verde (Paseo 21)  #91c028
+Gris oscuro cuadrado días #ededed
+Gris claro cuadrado días #fafafa
+Gris letras "ct" #b2b2b2
+Rojo letras "AP" "Abril" "Mayo" etc #e5005b
+Violeta letras deportes y días # 831f6a
+Celeste (Estadio Municipal) #35b6b4
+Azul (Newells) #1877bd
+Rojo (La Rural) # e5005b
+Lila (Laguito) # bd82b7
+Naranja (Provincial) # d65c14
+Violeta (Hipódromo) # 831f6a
+Amarillo medallas #e8d300
+.div-padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    background-color: #c05858;
+}
+*/
