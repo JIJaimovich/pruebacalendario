@@ -137,6 +137,10 @@ h1{
     height: 1rem;
     width: 1rem; 
 } 
+.medalla-no-calen{
+    height: 1rem;
+    width: 1rem;
+}
 .caja-calen{
     border-radius: 15%;
 }
@@ -172,6 +176,12 @@ Lila (Laguito) # bd82b7
 Naranja (Provincial) # d65c14
 Violeta (Hipódromo) # 831f6a
 Amarillo medallas #e8d300
+
+ULTIMA FILA
+position-absolute top-30 start-50
+PENULT FILA
+<div class="card card-body posicion-calen">
+
 .div-padre{
     display: flex;
     align-items: center;
