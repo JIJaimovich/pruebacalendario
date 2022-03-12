@@ -31,14 +31,20 @@ h1{
         margin: 5px;
         gap: 1px;  
     }
-    .card-calen{
-        width: 6rem;
+    /* .card-calen{
         font-size: 12px;
-    }
-    .card-calen ul{
+    } */
+
+    .lista-card-calen{
         list-style: none;
         padding: 0px;
+        font-size: 12px; 
     }
+    /* prueba-colapso{
+        float: left;
+        padding: 30px;
+    } */
+    
     .completo-calen{
         display: none;
     }
@@ -48,7 +54,8 @@ h1{
         } */
     .deporte-calen{
         font-size: 12px;
-        padding-left: 0px;  
+        padding-left: 0px;
+        padding-top: 6px;  
     }
     
     .dia-calen, .num-calen{
@@ -63,11 +70,20 @@ h1{
     }
 }
 
+/* .deporte-calen{
+    color: #831f6a;
+    text-transform: uppercase;
+    font-weight: 400;
+     
+} */
 .deporte-calen{
     color: #831f6a;
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 12px;
 }
+ 
+
 .dia-calen{
     color: #831f6a;
     text-align: center;
@@ -106,6 +122,7 @@ h1{
     justify-content: center;
     height: 1.5rem;
 }
+
 .ct-calen{
     text-align: center;
     color: #b2b2b2;
@@ -114,28 +131,33 @@ h1{
 
 .medalla-calen{
     min-height: 1rem;
-    /* height: 2rem; */
     background-color: #e8d300;
-    height: 1rem;
-    width: 1rem; 
     border: 1px solid white;
     border-radius: 50%;
+    height: 1rem;
+    width: 1rem; 
 } 
 .caja-calen{
     border-radius: 15%;
-    
 }
-.prueba-calen{
+/* .prueba-calen{
     height: 1.5rem;
-    width: 1.5rem;
-    
-}
-.boton-prueba-calen{
+    width: 1.5rem;  
+} */
+/* .fix-calen{
+   height: 1.5rem;
+   width: 1.5rem;
+} */
+.boton-calen{
     color: white;
-    margin-bottom: 4px;
-    font-weight: bold;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+    font-size: 20px;
 }
-
+.posicion-calen{
+    position: absolute;
+    right: 80px;
+}
 /* COLORES 
 Verde (Paseo 21)  #91c028
 Gris oscuro cuadrado días #ededed
