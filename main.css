@@ -14,7 +14,7 @@ h1{
 .grid-calen{
     display: grid;
     grid-template-columns: 3fr repeat(12 , 1fr);
-    grid-template-rows: repeat(31, 25px);
+    grid-template-rows: repeat(28, 25px);
     margin: 20px;
     align-items: center;
 }
@@ -29,7 +29,7 @@ h1{
     .grid-calen{
         display: grid;
         grid-template-columns: repeat(13 , 1fr);
-        grid-template-rows: repeat(5, 1.5rem);
+        grid-template-rows: repeat(28, 1.5rem);
         margin: 5px;
         gap: 1px;  
     }
@@ -113,6 +113,10 @@ h1{
 .newells-calen{
     min-height: 1.5rem;
     background-color: #1877bd;
+}
+.rural-calen{
+    min-height: 1.5rem;
+    background-color: #e5005b;
 }
 .paseo-calen{
     min-height: 1.5rem;
