@@ -17,6 +17,7 @@ h1{
     grid-template-rows: repeat(28, 25px);
     margin: 20px;
     align-items: center;
+    gap: 2px;
 }
 /* .caja-calen{
     border: 1px solid aquamarine; 
@@ -37,11 +38,7 @@ h1{
         font-size: 12px;
     } */
 
-    .lista-card-calen{
-        list-style: none;
-        padding: 0px;
-        font-size: 12px; 
-    }
+    
     /* prueba-colapso{
         float: left;
         padding: 30px;
@@ -71,8 +68,26 @@ h1{
     .titulo-card-calen{
         color: #831f6a;
     }
+    .lista-card-calen{
+        font-size: 12px; 
+    }
 }
+.lista-card-calen{
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+.card-box-calen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-calen{
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 10px;
 
+}
 /* .deporte-calen{
     color: #831f6a;
     text-transform: uppercase;
@@ -131,6 +146,7 @@ h1{
     min-height: 1.5rem;
     background-color: #d65c14;
 }
+
 .flex-calen{
     display: flex;
     align-items: center;
@@ -178,11 +194,16 @@ h1{
     position: absolute;
     right: 80px;
 }
+/* 
 .selector-calen{
     text-align: center;
     vertical-align: middle;
     width: 1rem;
     height: 1rem;
+}
+*/
+.selector-calen{
+    display: none;
 }
 /* p .selector-calen{
     width: 1rem;
