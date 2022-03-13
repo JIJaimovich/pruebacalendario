@@ -123,6 +123,14 @@ h1{
     min-height: 1.5rem;
     background-color: #91c028;
 }
+.laguito-calen{
+    min-height: 1.5rem;
+    background-color: #bd82b7;
+}
+.provincial-calen{
+    min-height: 1.5rem;
+    background-color: #d65c14;
+}
 .flex-calen{
     display: flex;
     align-items: center;
