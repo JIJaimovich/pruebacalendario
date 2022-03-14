@@ -82,9 +82,15 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.close-calen{
+    font-size: 27px;
+    background-color: white;
+    border-radius: 15px; 
+    color: #831f6a;
+}
 .img-calen{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     margin-bottom: 10px;
 
 }
