@@ -152,6 +152,10 @@ h1{
     min-height: 1.5rem;
     background-color: #d65c14;
 }
+.hipodromo-calen{
+    min-height: 1.5rem;
+    background-color: #831f6a;
+}
 
 .flex-calen{
     display: flex;
@@ -228,7 +232,7 @@ Azul (Newells) #1877bd
 Rojo (La Rural) # e5005b
 Lila (Laguito) # bd82b7
 Naranja (Provincial) # d65c14
-Violeta (Hipódromo) # 831f6a
+Violeta (Hipódromo) #831f6a
 Amarillo medallas #e8d300
 
 ULTIMA FILA
